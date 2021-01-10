@@ -1,0 +1,37 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.text_header_sidebar {
+    padding: 20px;
+    height: 90px;
+    display: block;
+}
+
+.sidebar_header {
+    background: #433520;
+    height: 120px;
+}
+
+.side_content {
+    font-size: 22px;
+    color: azure;
+    font-family: monospace;
+}
+
+.content {
+    padding: 5px;
+    margin-top: 20px;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #2c061f;
+    color: #fff;
+}
